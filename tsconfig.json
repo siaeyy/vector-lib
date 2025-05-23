@@ -23,14 +23,14 @@
 		"allowSyntheticDefaultImports": true,
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
-		"module": "NodeNext",
-		"moduleResolution": "nodenext",
-		"resolveJsonModule": true,
+		"module": "ESNext",
 		"isolatedModules": false,
 		"outDir": "./dist",
 		"sourceMap": true,
 		"inlineSources": true,
-		"sourceRoot": "/"
+		"sourceRoot": "/",
+		"declaration": true,
+		"declarationDir": "dist/"
 	},
 	"include": [
 		"./src"
