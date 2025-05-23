@@ -6,6 +6,10 @@
 	"author": "siaeyy",
 	"type": "commonjs",
 	"main": "dist/index.js",
+	"repository": {
+		"type": "git",
+    	"url": "git@github.com:siaeyy/vector-lib.git"
+	},
 	"files": [
     	"dist"
  	],
