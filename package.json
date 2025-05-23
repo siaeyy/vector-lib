@@ -4,18 +4,18 @@
 	"description": "A package for easy usage of vectors.",
 	"license": "UNLICENSED",
 	"author": "siaeyy",
-	"type": "commonjs",
-	"main": "dist/index.js",
+	"type": "module",
+	"main": "src/index.ts",
 	"repository": {
 		"type": "git",
-    	"url": "git@github.com:siaeyy/vector-lib.git"
+		"url": "git@github.com:siaeyy/vector-lib.git"
 	},
 	"files": [
-    	"dist"
- 	],
+		"dist"
+	],
 	"scripts": {
 		"dev": "nodemon npx tsx ./src/index.ts",
-		"build": "tsup"
+		"build": "npx rollup -c"
 	},
 	"keywords": [
 		"vector"
@@ -23,7 +23,7 @@
 	"devDependencies": {
 		"@types/node": "^22.15.21",
 		"nodemon": "^3.1.10",
-		"tsup": "^8.5.0",
+		"rollup-plugin-typescript2": "^0.36.0",
 		"tsx": "^4.19.4"
 	}
 }
