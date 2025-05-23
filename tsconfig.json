@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		////////////////
+		// tsup error //
+		////////////////
+		//
+		// "paths": {
+		// 	"*": [
+		// 		"src/*"
+		// 	]
+		// },
+		//
+		////////////////
+		"target": "ESNext",
+		"lib": [
+			"esnext"
+		],
+		"allowJs": true,
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "NodeNext",
+		"moduleResolution": "nodenext",
+		"resolveJsonModule": true,
+		"isolatedModules": false,
+		"outDir": "./dist",
+		"sourceMap": true,
+		"inlineSources": true,
+		"sourceRoot": "/"
+	},
+	"include": [
+		"./src"
+	],
+	"exclude": [
+		"./node_modules",
+		"./dist"
+	],
+}

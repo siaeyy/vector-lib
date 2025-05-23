@@ -1,0 +1,25 @@
+{
+	"name": "vector-lib",
+	"version": "0.1.0",
+	"description": "A package for easy usage of vectors.",
+	"license": "UNLICENSED",
+	"author": "siaeyy",
+	"type": "commonjs",
+	"main": "dist/index.js",
+	"files": [
+    	"dist"
+ 	],
+	"scripts": {
+		"dev": "nodemon npx tsx ./src/index.ts",
+		"build": "tsup"
+	},
+	"keywords": [
+		"vector"
+	],
+	"devDependencies": {
+		"@types/node": "^22.15.21",
+		"nodemon": "^3.1.10",
+		"tsup": "^8.5.0",
+		"tsx": "^4.19.4"
+	}
+}
